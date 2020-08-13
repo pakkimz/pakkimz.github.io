@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'Russo One', sans-serif;
+	src: url(../fonts/russoone-regular-webfont.woff) format('woff');
+}
+
+body {
+	font: 16px/20px 'Russo One', sans-serif;
+	background-color: coral;
+}
+.container {
+	width: 650px;
+	background-color: #333;
+	margin: auto;
+	border: 5px solid black;
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: white;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.container h1 {
+	 font-size: 50px;
+	 font-weight: bold;
+	 text-align: center;
+	 padding: 10px;
+ }
+
+.header-2 {
+	background-color: #333;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 1px solid #333;
+	color: white;
+	text-align: center;
+}
+
+.header-2 ul li {
+	display: inline-block;
+	text-transform: capitalize;
+	margin-right: 30px;
+}
+
+.header-2 ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.header-2 ul li a:hover {
+	background-color: snow;
+	color: black;
+}
+
+.hero {
+	height: 400px;
+	background-image: url(img/car.jpg);
+	background-size: cover;
+	border: 5px dotted white;
+}
+
+.content {
+	font: 16px/20px arial, sans-serif;
+	color: white;
+	margin: 10px;
+	border: 1px solid #333;
+	text-indent: 5%;
+}
+
+.content h2 {
+	font-size: 30px;
+	padding-top: 10px;
+	/* text-align: center; */
+}
+
+.content .penulis {
+	/* text-align: center; */
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+.content .penulis a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.content .penulis a:hover {
+	color: red;
+}
+
+.footer {
+	background-color: white;
+	padding: 10px;
+}
+
+.footer .copyright {
+	text-align: center;
+}
+
+.footer .copyright span {
+	color: red;
+	cursor: pointer;
+}
+
+.footer .copyright span:hover {
+	color: blue;
+}
