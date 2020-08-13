@@ -1,10 +1,5 @@
-@font-face {
-	font-family: 'Russo One', sans-serif;
-	src: url(../fonts/russoone-regular-webfont.woff) format('woff');
-}
-
 body {
-	font: 16px/20px 'Russo One', sans-serif;
+	font: 16px/20px arial, sans-serif;
 	background-color: coral;
 }
 .container {
@@ -58,8 +53,9 @@ body {
 
 .hero {
 	height: 400px;
-	background-image: url(img/car.jpg);
-	background-size: cover;
+	/* background-image: url(img/car.jpg); */
+	/* background-size: cover; */
+	background-color: lightskyblue;
 	border: 5px dotted white;
 }
 
