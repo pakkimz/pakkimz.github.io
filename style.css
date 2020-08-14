@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
-	font: 16px/20px arial, sans-serif;
-	background-color: coral;
+	font: 16px/20px 'Russo One', sans-serif;
+	background-image: url(img/y-so.png)
 }
+
 .container {
-	width: 650px;
+	width: 900px;
 	background-color: #333;
 	margin: auto;
 	border: 5px solid black;
 	border-radius: 5px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
 
 .header {
@@ -53,38 +56,58 @@ body {
 
 .hero {
 	height: 400px;
-	/* background-image: url(img/car.jpg); */
-	/* background-size: cover; */
-	background-color: lightskyblue;
-	border: 5px dotted white;
+	background-image: url(img/hero.jpg);
+	background-size: cover;
+	border: 5px double white;
 }
 
-.content {
+.main {
+	width: 600px;
+	padding: 20px;
 	font: 16px/20px arial, sans-serif;
 	color: white;
-	margin: 10px;
 	border: 1px solid #333;
 	text-indent: 5%;
+	box-sizing: border-box;
+	float: left;
 }
 
-.content h2 {
+.main h2 {
 	font-size: 30px;
 	padding-top: 10px;
 	/* text-align: center; */
 }
 
-.content .penulis {
+.main .penulis {
 	/* text-align: center; */
 	font-size: 10px;
 	padding-bottom: 10px;
 }
-.content .penulis a {
+.main .penulis a {
 	text-decoration: none;
 	color: salmon;
 }
 
-.content .penulis a:hover {
+.main .penulis a:hover {
 	color: red;
+}
+
+.sidebar {
+	font: 16px/20px arial, sans-serif;
+	width: 300px;
+	height: 450px;
+	float: right;
+	margin-top: 20px;
+	background-color: lightblue;
+	box-sizing: border-box;
+	overflow: auto;
+	padding: 10px;
+}
+
+.sidebar h2 {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: pink;
 }
 
 .footer {
